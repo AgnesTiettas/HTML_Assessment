@@ -1,35 +1,59 @@
+@font-face {
+    font-family: Sophia;
+    src: url(Sophia.woff);
+}
 
-.Heading{
-    font-size: 50px;
+
+
+.Heading{    /*Styles the heading */
+    font-size: 60px;
     padding: 20px;
-    background-color:tan;
+    margin:0%;
+    background-color:#E9C5A4;
     text-align: center;
+    font-family: Sophia;
 
 }
-.NavBar{
+/*Styles the navigation bar */
+.NavBar{       
     font-size: 22px;
     overflow:hidden;
-    background-color: azure;
+    background-color: #BE8260;
     text-align: center;
+    margin-top: 10px;
  
 }
 
-.NavBar a {
+/*Styles the  */
+.NavBar a {    
     text-align: center;
     float:left; 
     font-size: 22px;
+    font-family: 'Gill Sans';
     color: black;
     padding: 10px;
-    text-decoration:none;
+    text-decoration:double;
+    
+}  
+
+/*Colour of navbar text on hover */
+.NavBar a:hover {
+    background-color:#915C3B;
 } 
 
+.fa {
+    color:black;
+    width:4px;
+    font-size: 15px;;
+    
+}
 .MenuDropDown {
     float:left;
     overflow: hidden;
 }
 
 .MenuDropDown .dropdownbutton{
-    font-size:20px;
+    font-size:22px;
     border:none;
     outline:none;
     color:black;
@@ -38,10 +62,119 @@
     font-family:inherit;
 }
 
+/*Styles the Dropdown box */
 .dropdowntext {
     display:none;
-    background-color: gray;
+    background-color: #915C3B;
     box-shadow:2px; 
-    
 
+}
+
+/*Adds style to menu dropdown items */
+.dropdowntext a {
+    float:none; 
+    color:black; 
+    text-decoration:solid;
+    display:block;
+    text-align: center;
+
+
+}
+
+/*Colour of dropdown text on hover */
+.dropdowntext a:hover {
+    background-color:#E9C5A4;
+} 
+
+/*Display style of the dropdown */
+.MenuDropDown:hover .dropdowntext {
+    display: block;
+}   
+
+
+
+.imagecolumn {
+    width: 31%;
+    padding:12px;
+    float: left;
+}
+
+.ImageRow::after {
+    content:"";
+    display:table;
+    clear:both;
+
+}
+
+.review_container {
+    position:relative;
+    background:#BE8260;
+    max-width:850px;
+    height: auto;
+    text-align:center;
+    float: right;
+    margin-right: 25px;
+
+}
+
+.review {
+    display:block;
+    text-align: center;
+    padding:7px;
+}
+
+.container {
+    margin:15px auto;
+    width:100%;
+    height:auto;
+
+}
+
+.logo {
+    width:300px;
+    height:auto;
+    float:left;
+    margin-right:15px;
+    margin-left: 5px;
+    border-radius:10px;
+} 
+
+.text_box_header {
+    text-align: center;
+}
+.person {
+    text-align: center;
+}
+
+.fa-star {
+    padding-bottom: 8px;
+    margin-left:10px;
+    padding-top: 0;
+    color:#ffcf40;
+    text-align: center;
+    
+}
+.googlemap {
+    padding:10px;
+    margin-right:15px;
+    margin-top:10px;
+    border:10px;
+
+}
+.map{
+    width:500px;
+    height:350px; 
+    border:10px;
+    float: right;
+    margin:15px;
+   
+}
+
+.location {
+    text-align: center;
+    float:left;
+    padding-top:55px;
+    width:50%;
+    vertical-align: middle;
+    font-size: 60px;
 }
