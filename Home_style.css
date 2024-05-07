@@ -23,7 +23,7 @@
  
 }
 
-/*Styles the  */
+/*Styles the links in the navbar */
 .NavBar a {    
     text-align: center;
     float:left; 
@@ -40,6 +40,7 @@
     background-color:#915C3B;
 } 
 
+/*Styles the arrow down*/
 .fa {
     color:black;
     width:4px;
@@ -66,6 +67,7 @@
     display:none;
     background-color: #915C3B;
     box-shadow:2px; 
+    position:absolute;
 
 }
 
@@ -93,56 +95,51 @@
 
 
 .imagecolumn {
-    width: 31%;
-    padding:12px;
-    float: left;
+    width: 30%;
+    padding:1.6%;
+    float:left;
 }
 
 .ImageRow::after {
     content:"";
     display:table;
     clear:both;
-
 }
 
 .review_container {
-    position:relative;
     background:#BE8260;
-    max-width:850px;
+    width:65%;
     height: auto;
     text-align:center;
     float: right;
     margin-right: 25px;
-    border-radius:10px;
-
+    border-radius:10px; 
 }
 
 .review {
     display:block;
     text-align: center;
-    padding:7px;
-    
+    padding:7px;   
 }
 
 .container {
     margin:15px auto;
     width:100%;
-    height:300px;
-
+    height:25%;
 }
 
 .logo {
-    width:300px;
-    height:auto;
+    width:31%;
+    height:25%;
     float:left;
-    margin-right:15px;
-    margin-left: 5px;
+    margin-left: 15px;
     
 } 
 
 .text_box_header {
     text-align: center;
 }
+
 .person {
     text-align: center;
 }
@@ -155,45 +152,49 @@
     text-align: center;
     
 }
-.googlemap {
-    padding:10px;
-    margin-right:15px;
-    margin-top:10px;
-    border:10px;
 
+
+.googlemap {
+    padding:20px;
+    margin-right:10px;
+    margin-top:20px;
+    border:10px;
+    width:90%;
+    height:auto;
+    float:left;
+    
 }
+
+
+.location {
+    text-align:center;
+    float:left;
+    width:25%;
+    height: auto;
+    font-size: 60px;
+    background-color:#915C3B;
+    border-radius: 15px;  
+    padding:10px;
+    margin-top:120px; 
+    margin-left: 90px;
+
+} 
+
 .map{
-    width:500px;
+    width:450px;
     height:350px; 
     border:10px;
     float: right;
-    margin:15px;
-   
+    margin:10px;  
 }
-
-.location {
-    text-align: center;
-    float:left;
-    padding:20px;
-    padding-right: 20px;
-    margin-top:120px; 
-    margin-left:120px;
-    width:25%;
-    height: auto;
-    vertical-align: middle;
-    font-size: 60px;
-    background-color:#915C3B;
-    border-radius: 15px;
-    
-} 
 
 .footer {
     background-color: #E9C5A4;
     text-align: left;
     padding:10px;
     width:auto;
-    margin-top:500px;  
-
+    margin-top:850px;
+    height:10%;
 
 }
 

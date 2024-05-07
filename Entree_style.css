@@ -7,7 +7,7 @@
 .Heading{    /*Styles the heading */
     font-size: 60px;
     padding:20px;
-    margin:0%;
+    margin:0;
     background-color:#E9C5A4;
     text-align: center;
     font-family: Sophia;
@@ -68,7 +68,7 @@
     display:none;
     background-color: #915C3B;
     box-shadow:2px; 
-    position:absolute;
+    position:absolute; /* Makes the whole navbar stay fixed when using dropdown*/
     
 
 }
@@ -93,3 +93,20 @@
 .MenuDropDown:hover .dropdowntext {
     display: block;
 }   
+
+.Entree_Container {
+    background-color:#915C3B;
+    padding:10px; 
+    margin:10px 100px 10px 100px; 
+    border-style: ridge;
+    border-color: #BE8260;
+    border-width:10px;
+
+}
+
+.Entree_title {
+    font-size: 48px;
+    text-align: center;
+    font-family:Sophia;
+
+}
