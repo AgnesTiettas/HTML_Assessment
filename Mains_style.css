@@ -167,8 +167,8 @@ th {
 
 .card {
     box-shadow: 0 2px 4px 0 darkgray;
-    width:20%;
-    height: auto;
+    width:240px;
+    height: fit-content;
     float:left;
     margin:2.5%;
     text-align: center;
@@ -189,7 +189,15 @@ th {
 .container1{
     padding:2px 16px;
 }
+.pancit {
+    float:left;
+}
+
+.container2 {
+    
+}
 
 .Pancit_Type{
     font-size:20px;
+    float:right;
 }
