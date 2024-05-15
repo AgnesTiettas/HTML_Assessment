@@ -94,12 +94,6 @@
     display: block;
 }   
 
-.fa-cart {
-    color:black;
-    width:5px;
-    font-size:15;
-}
-
 .Mains_Container {
     background-color:#915C3B;
     padding:5px 10px 5px 10px; 
@@ -213,17 +207,6 @@ th {
     font-size: 38px;
     text-align: center;
     font-family:Sophia;
-
-} 
-
-.Veg_card1, .Veg_card2 {
-    margin:2.5% 240px 2.5% 240px;
-    box-shadow: 0 2px 4px 0 darkgray;
-    width:240px;
-    height: fit-content;
-    float:left;
-    text-align: center;
-    display:table-cell;
 
 } 
 
