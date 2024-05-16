@@ -203,20 +203,31 @@ th {
     text-align: center;
 }
 
-.Veg_Salad_title {
-    font-size: 38px;
-    text-align: center;
-    font-family:Sophia;
-
-} 
 
 .card2{
     box-shadow: 0 2px 4px 0 darkgray;
     width:240px;
     height: fit-content;
-    float:left;
+    float:right;
     margin:2.5%;
     text-align: center;
     display:table-cell;
 
 }
+
+.card_container1{
+    margin-left:40%;
+    margin-right:30%;
+
+
+}
+
+.footer {
+    background-color: #E9C5A4;
+    text-align: left;
+    padding:10px;
+    width:auto;
+    height:10%;
+    margin-top: 800px;
+}
+
