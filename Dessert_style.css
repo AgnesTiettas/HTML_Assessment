@@ -159,9 +159,8 @@ th {
 }
 
 .card_container {
-    display: table;
-    width: 100%;
-    
+    display:flex;
+    justify-content: center;
 }
 
 .card {
@@ -185,52 +184,8 @@ th {
     
 }
 
-.container1{
-    padding:2px 16px;
+.price{
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
 }
-.pancit {
-    text-align:center;
-}
-
-.container2 {
-    width:24%;
-    
-}
-
-
-.Pancit_Type{
-    font-size:20px;
-    text-align: center;
-}
-
-
-.card2{
-    box-shadow: 0 2px 4px 0 darkgray;
-    width:240px;
-    height: fit-content;
-    float:right;
-    margin:2.5%;
-    text-align: center;
-    display:table-cell;
-
-}
-
-.Lechon {
-    text-align: center;
-    font-family: Sophia;
-    font-size: 48px;
-}
-.card_container1{
-    display:flex;
-    justify-content: space-around;
-}
-
-.footer {
-    background-color: #E9C5A4;
-    text-align: left;
-    padding:10px;
-    width:auto;
-    height:10%;
-    margin-top: 800px;
-}
-
