@@ -102,8 +102,8 @@
     border-color: #BE8260;
     border-width:10px;
     
-
 }
+
 
 .Entree_title {
     font-size: 48px;
@@ -112,14 +112,21 @@
 
 }
 
+
+.card_container {
+    display: table;
+    width: 100%;
+    
+}
+
 .card {
     box-shadow: 0 2px 4px 0 darkgray;
-    width:20%;
+    width:245px;
     height: fit-content;
     float:left;
     margin:2.5%;
     text-align: center;
-    
+    display:table-cell;
 
 }
 
@@ -136,6 +143,7 @@
 .container1{
     padding:2px 16px;
 }
+
 
 
 .footer {
