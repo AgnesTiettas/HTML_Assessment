@@ -101,6 +101,7 @@
     border-style:groove;
     border-color: #BE8260;
     border-width:10px;
+    border-radius: 5px;
     
 
 }
@@ -188,4 +189,23 @@ th {
     font-size: 28px;
     font-weight: bold;
     font-style: italic;
+}
+
+.footer {
+    background-color: #E9C5A4;
+    text-align: left;
+    padding:10px;
+    width:auto;
+    height:10%;
+    margin-top:90px;
+}
+.logo{
+    width:20px;
+    height:20px;
+    padding:5px;
+
+}
+
+.copyright {
+    text-align:center;
 }

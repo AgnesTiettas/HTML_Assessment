@@ -101,6 +101,7 @@
     border-style:groove;
     border-color: #BE8260;
     border-width:10px;
+    border-radius: 5px;
     
 }
 
@@ -152,7 +153,18 @@
     padding:10px;
     width:auto;
     height:10%;
-    margin-top: 800px;
+    margin-top: 200px;
     
 
+}
+
+.logo{
+    width:20px;
+    height:20px;
+    padding:5px;
+
+}
+
+.copyright {
+    text-align:center;
 }

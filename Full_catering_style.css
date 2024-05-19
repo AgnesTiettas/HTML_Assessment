@@ -3,10 +3,7 @@
     src: url(Sophia.woff);
 }
 
-*, *:before, *:after{
-    margin:0;
 
-}
 
 
 .Heading{    /*Styles the heading */
@@ -106,6 +103,7 @@
     border-style:groove;
     border-color: #BE8260;
     border-width:10px;
+    border-radius: 5px;
     
 
 }
@@ -119,8 +117,83 @@
 
 
 .Inclusions {
-    text-align:left;
-    justify-content:center;
-    margin:20px;
+    text-align:center;
+    margin:12%;
+    font-style: italic;
+    background-color: #BE8260;
+    padding:20px;
+    border-radius: 10px;
+}
+
+.Inclusions_items{
+    list-style-type: none;
+}
+
+.columns {
+    float:left;
+    width:225px;
+    padding:8px;
+    margin:3px;
+
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid white;
+    margin:0;
+    padding:0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .Header {
+    background-color:#915C3B; 
+    color:white; 
+    font-size:25px;
+}
+
+.price li {
+    border:1px solid #915c3bd3;
+    padding: 20px;
+    text-align:center;
+}
+
+.price .price1 {
+    background-color:#915c3b8e;
+    font-size:20px;
+
+}
+
+.Conditons{
+    text-align: center;
+    margin: auto;
+    padding:20px;
+    font-size: 20px;
     font-style: italic;
 }
+
+
+.footer {
+    background-color: #E9C5A4;
+    text-align: left;
+    padding:10px;
+    width:auto;
+    height:10%;
+    margin-top:40px;
+}
+
+.logo{
+    width:20px;
+    height:20px;
+    padding:5px;
+
+}
+
+.copyright {
+    text-align:center;
+}
+
