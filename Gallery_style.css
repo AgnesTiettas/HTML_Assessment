@@ -127,3 +127,23 @@
     vertical-align:middle;
     width:350px;
 }
+
+.footer {
+    background-color: #E9C5A4;
+    text-align: left;
+    padding:10px;
+    width:auto;
+    height:10%;
+    margin-top:60px;
+}
+
+.logo{
+    width:20px;
+    height:20px;
+    padding:5px;
+
+}
+
+.copyright {
+    text-align:center;
+}

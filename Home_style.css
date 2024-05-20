@@ -108,7 +108,8 @@
     float: right;
     margin-right: 25px;
     margin-left:25px;
-    border-radius:10px; 
+    margin-bottom:65px;
+    border-radius:10px;
 }
 
 .review {
@@ -134,13 +135,82 @@
     font-style: italic;
 }
 
-.fa-star {
+/* styles the star icon */
+.fa-star { 
     padding-bottom: 8px;
     margin-left:10px;
     padding-top: 0;
     color:#ffcf40;
     text-align: center;
     
+}
+
+
+ /* styles form itself and everything inside */
+form{ 
+    padding:15px;
+    z-index:10; /*defines the stacking order of elements*/
+    overflow:hidden;
+    text-align: center;
+    background-color:#BE8260;
+    border-radius:15px;
+    margin-left:250px;
+    margin-right:250px;
+
+
+}
+
+/* styles the form title */
+.Form_header { 
+    color:black;
+    font-family:Sophia;
+    font-size:50px;
+    margin-bottom:10px;
+    margin-top:5px;
+    text-align:center;
+
+}
+
+.Input {
+    position:relative; 
+    margin: 10px 0;
+
+}
+
+
+.input{
+    width:50%;
+    outline:none;
+    border:1px solid #E9C5A4;
+    border-radius:15px;
+    font-family:'Gill Sans';
+
+}
+
+
+textarea, .input {
+    padding:8px 12px;
+    padding-bottom: 20px;
+    resize:none;
+    overflow-y: auto;
+
+}
+
+
+
+::placeholder {
+    color:gray;
+    font-family: 'Gill Sans';
+}
+
+.Submit_btn {
+    background-color:#915C3B;
+    color:black;
+    font-family:Sophia;
+    font-size:26px;
+    border: 1px solid #915C3B;
+    border-radius:5px;
+
 }
 
 
@@ -155,12 +225,11 @@
 }
 
 .logo {
-    width:31%;
-    height:25%;
+    width:360px;
+    height:auto;
     float:left;
     margin-left: 15px; 
-
-    
+    padding-top:20px; 
 } 
 
 .map{
@@ -169,6 +238,7 @@
     border:10px;  
     float: right;
     margin-right: auto;
+    padding-top: 20px;
 }
 
 .footer {
@@ -181,7 +251,7 @@
 
 }
 
-.logo{
+.logo1{
     width:20px;
     height:20px;
     padding:5px;
@@ -192,3 +262,12 @@
     text-align:center;
 }
 
+
+@media screen and (max-width:800px) {
+    form{
+        width:70%;
+        margin-left:50px;
+        margin-right:50px;
+
+    }
+}
