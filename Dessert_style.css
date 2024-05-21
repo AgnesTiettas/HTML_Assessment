@@ -191,14 +191,20 @@ th {
     font-style: italic;
 }
 
+
 .footer {
     background-color: #E9C5A4;
     text-align: left;
     padding:10px;
     width:auto;
     height:10%;
-    margin-top:90px;
+    margin-top:100px;
 }
+
+.ContactInfo{
+    text-align:center;
+}
+
 .logo{
     width:20px;
     height:20px;
@@ -208,4 +214,6 @@ th {
 
 .copyright {
     text-align:center;
+    font-style: italic;
 }
+

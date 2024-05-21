@@ -128,13 +128,18 @@
     width:350px;
 }
 
+
 .footer {
     background-color: #E9C5A4;
     text-align: left;
     padding:10px;
     width:auto;
     height:10%;
-    margin-top:60px;
+    margin-top:100px;
+}
+
+.ContactInfo{
+    text-align:center;
 }
 
 .logo{
@@ -146,4 +151,5 @@
 
 .copyright {
     text-align:center;
+    font-style: italic;
 }

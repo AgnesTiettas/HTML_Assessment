@@ -150,6 +150,11 @@
     padding:10px;
     width:auto;
     height:10%;
+    margin-top:100px;
+}
+
+.ContactInfo{
+    text-align:center;
 }
 
 .logo{
@@ -161,6 +166,5 @@
 
 .copyright {
     text-align:center;
+    font-style: italic;
 }
-
-
